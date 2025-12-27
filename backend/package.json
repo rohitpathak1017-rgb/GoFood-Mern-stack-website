@@ -6,7 +6,11 @@
   "author": "Rohit",
   "type": "commonjs",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -19,3 +23,4 @@
     "nodemon": "^3.1.11"
   }
 }
+
